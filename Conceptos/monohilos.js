@@ -15,4 +15,4 @@ setInterval(() => {
 }, 1000);
 
 // Imprimimos segundo mensaje
-console.log('segundo evento');
+console.log('segundo evento aux');

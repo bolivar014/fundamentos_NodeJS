@@ -2,8 +2,30 @@
     NOMBREVAR1=VAL1 WEB=VAL2 node conceptos/entorno.js
     EJM: NOMBRE=Pepito WEB=loquesea.com node conceptos/entorno.js
     
-[*] 
+[*] NODEMON | HERRAMIENTA que detecta cada cambio realizado en el proyecto, de inmediato vuelte a compilar.
+    PM2 | HERRAMIENTA que permite el capturar todo tipo de error de ejecución a modo logs y restablece su uso.
+    
+    instalar: 
+        npm install -g nodemon // -g instruccion para instalar globalmente
+        npm install -g pm2
 
+    ejecutar nodemon: 
+        nodemon ruta/archivo.js
+    
+        ejemplo:
+            nodemon Conceptos/monohilos.js
+
+    ejecutar pm2:
+        pm2 start ruta/archivo.js 
+
+    Consultar STATUS pm2:
+        pm2 status
+    
+    Consultar logs
+        pm2 logs
+        
+    Pausar proceso pm2
+        pm2 stop
 [*] 
 
 [*] 
