@@ -11,7 +11,8 @@ function router(req, resp) {
 
     switch(req.url) {
         case '/hola':
-            resp.write('Hola que tal');
+            let saludo = hola();
+            resp.write(saludo);
             resp.end();
         break;
         default:
@@ -29,5 +30,11 @@ function router(req, resp) {
     // resp.end();
 }
 
+// Retornamos saludo de prueba
+function hola() {
+    return "Hola que tal";
+}
+
 // El puerto utilizado para escuchar el servidor, es el 3000
 console.log("Escuchando http en el puerto 3000");
+

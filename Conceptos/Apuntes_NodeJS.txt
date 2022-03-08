@@ -52,9 +52,11 @@
 [*] función: pipe()
     la función pipe se utiliza para mandar desde un sitio a otro
     
-[*] 
+[*] Debugger NodeJS
+    node --inspect modulos/http.js
 
-[*] 
+[*] Inspeccionador de Chrome
+    chrome://inspect/#devices
 
 [*] 
 
