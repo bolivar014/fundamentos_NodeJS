@@ -26,8 +26,14 @@
         
     Pausar proceso pm2
         pm2 stop
-[*] 
 
+[*] NODE-GYP | HERRAMIENTA que nos permite compilar librerias de C++
+    INSTALAR: 
+        npm i -g node-gyp
+
+    Configurar NODE-GYP:
+        node-gyp configure
+        
 [*] 
 
 [*] 
