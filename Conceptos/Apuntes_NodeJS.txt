@@ -37,13 +37,17 @@
 [*] Ejecutar modulos experimentales.
     node --experimental-modules index.mjs
 
-[*] 
+[*] Crear package.json
+    npm init -y
  
-[*] 
+[*] Instalar paquete bcrypt | Libreria de cifrado
+    npm i bcrypt
 
-[*] 
+[*] Instalar paquete moment | Libreria de fechas
+    npm install moment
 
-[*] 
+[*] Instalar paquete sharp | Libreria que nos permite trabajar con imagenes en C++...
+    npm i sharp
 
 [*] 
 
