@@ -49,8 +49,9 @@
 [*] Instalar paquete sharp | Libreria que nos permite trabajar con imagenes en C++...
     npm i sharp
 
-[*] 
-
+[*] función: pipe()
+    la función pipe se utiliza para mandar desde un sitio a otro
+    
 [*] 
 
 [*] 
