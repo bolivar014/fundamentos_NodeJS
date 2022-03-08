@@ -34,7 +34,8 @@
     Configurar NODE-GYP:
         node-gyp configure
 
-[*] 
+[*] Ejecutar modulos experimentales.
+    node --experimental-modules index.mjs
 
 [*] 
  
